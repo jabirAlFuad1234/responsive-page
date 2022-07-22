@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            
+            margin: 0 auto;
+            border: 1px solid plum;
+            background-image: linear-gradient(black,red,black,black);
+            color: gold;
+            font-size: 25px;
+        }
+
+        h1 {
+            font-size: 10vw;
+        }
+
+        .tiger img {
+            width: 100%;
+        }
+
+        .container-two {
+            display: flex;
+        }
+
+        .container-two .split {
+            width: 50%;
+        }
+
+        .split img {
+            width: 100%;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .food {
+            
+            padding: 30px;
+            border-radius: 4px;
+        }
+
+        .food img {
+            width: 100%;
+            
+        }
+
+        @media screen and (max-width:576px) {
+            .container-two {
+                flex-direction: column;
+            }
+
+            .container-two .split {
+                width: 100%;
+            }
+
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:700px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Tiger Garden Resturant</h1>
+    </section>
+    <section class="tiger">
+        <img src="images/tiger-Siberian.webp" alt="">
+    </section>
+    <section>
+        <h2>Welcome to our Dhaba .......... </h2>
+        <div class="container-two">
+            <div class="split">
+                <img src="images/cook-chef-logo-or-label-restaurant-concept-vector-20578108.jpg" alt="">
+            </div>
+            <div class="split">
+                <img src="images/siberian-tiger-head-shot-in-the-snow-tibor-vari.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Food-Items</h2>
+        <div class="container">
+            <div class="food">
+                <img src="images/healthy-breakfast-recipes.webp" alt="">
+                <h2>item-1</h2>
+                <h4>price: 100</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maxime similique dolorem
+                    aspernatur ipsam laboriosam est aperiam consequatur atque, illo fugiat, debitis blanditiis earum
+                    dolor aut commodi dolore hic. Aperiam.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/00100dPORTRAIT_00100_BURST20200619171529597_COVER-02-min.jpg" alt="">
+                <h2>item-2</h2>
+                <h4>price: 200</h4>
+                <p>Sequi esse fuga, doloremque quas aut necessitatibus. Enim illo ea excepturi sed debitis voluptas
+                    libero minus, quod beatae iure labore iste! Nemo nobis enim explicabo eius dolorem possimus
+                    dignissimos ullam?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/1548627408_tandoori_pomfret_2.jpg" alt="">
+                <h2>item-3</h2>
+                <h4>price: 300</h4>
+                <p>Maxime quisquam pariatur, eum officia soluta obcaecati vel, minima quam placeat deleniti aliquid sit
+                    nam atque laborum ullam hic nemo porro. Obcaecati quos rerum in mollitia quasi voluptas, quae illum?
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/998d18328f6293874bf171b9e09b776b.jpg" alt="">
+                <h2>item-4</h2>
+                <h4>price: 400</h4>
+                <p>At ducimus vero quod dicta, quidem minima et deleniti iste? Sunt, architecto consectetur alias ullam,
+                    ab cupiditate omnis voluptate consequuntur esse quis aperiam quasi eius! Quaerat itaque nihil
+                    quibusdam perferendis?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/f52bd274cf4a25b0647a56fe61266b0a_1583740797.avif" alt="">
+                <h2>item-5</h2>
+                <h4>price: 500</h4>
+                <p>Blanditiis debitis dolores doloremque natus sit molestias, rerum consectetur necessitatibus nihil
+                    quaerat voluptas delectus facere voluptatem assumenda a fugiat vero voluptatum atque nisi. Molestiae
+                    ex recusandae velit ea consequuntur repudiandae?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/Full_Thali_(2).avif" alt="">
+                <h2>item-6</h2>
+                <h4>price: 600</h4>
+                <p>Reprehenderit quam provident temporibus. Quaerat error ad eveniet architecto explicabo facere
+                    voluptatum officia fuga nostrum cupiditate illum temporibus porro reiciendis maxime expedita
+                    voluptatem accusamus cumque, dolor in omnis voluptate at?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/lif6fjcopas4o7f8dzqj.webp" alt="">
+                <h2>item-7</h2>
+                <h4>price: 700</h4>
+                <p>Cum sit quo quibusdam vel officia aut, hic quasi asperiores. Fugiat rerum laborum, at exercitationem
+                    incidunt autem possimus magni voluptas ipsam cumque. Aspernatur assumenda quis voluptatibus rem
+                    deleniti nostrum. Veritatis!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/macher-jhol.webp" alt="">
+                <h2>item-8</h2>
+                <h4>price: 800</h4>
+                <p>Exercitationem amet, doloribus quibusdam saepe repellendus voluptatum aspernatur deleniti odit iusto
+                    architecto, omnis ducimus neque quasi ea laboriosam quia? Esse magnam delectus molestias excepturi
+                    vero inventore nesciunt, voluptatum itaque non.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/maxresdefault.jpg" alt="">
+                <h2>item-9</h2>
+                <h4>price: 900</h4>
+                <p>Deserunt, nemo quae nobis laborum mollitia aperiam eius quo alias quibusdam numquam iusto ratione,
+                    saepe distinctio cum labore nesciunt hic quam aliquid. Velit iste, dicta vitae iusto voluptatum enim
+                    libero.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/Mutton_Awadhi_biryani_at_Aminia.webp" alt="">
+                <h2>item-10</h2>
+                <h4>price: 1000</h4>
+                <p>Nulla nemo iure vel amet ad ea, quod rerum tempora perferendis ullam repellendus officia. Pariatur
+                    accusantium perferendis tempore facilis debitis praesentium! Optio quos, maxime soluta tenetur aut
+                    quaerat atque pariatur?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/p1632-164069766761cb0f43df294.webp" alt="">
+                <h2>item-11</h2>
+                <h4>price: 1100</h4>
+                <p>Qui perferendis nisi iure molestiae possimus earum voluptas, rem, repellat nulla architecto in, odio
+                    eligendi quibusdam commodi itaque! Non id vitae quam voluptatibus dolor, odio ducimus soluta
+                    perferendis eligendi nemo.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/wcywnxxdiie3wriim7tq.webp" alt="">
+                <h2>item-12</h2>
+                <h4>price: 1200</h4>
+                <p>Impedit, maiores? Provident a nulla tempora consequuntur nesciunt reiciendis, ipsum sit magnam sunt
+                    deleniti qui quo praesentium nam impedit dolorum laudantium nostrum vitae iure quibusdam unde quod
+                    saepe similique? Aperiam!</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
